@@ -30,7 +30,3 @@ elif op == "/":
     
 else:
     print("Invalid operation")
-    
-
-
-
