@@ -23,7 +23,6 @@ def calculate(): #Função para calcular a expressão matemática
         entry.delete(0, tk.END) #Limpa a entrada
         entry.insert(tk.END, "Erro desconhecido")  # Se houver um erro durante o cálculo
  
-        
 root = tk.Tk()  # Inicializa a janela principal
 root.title("Calculadora") #Define o título da janela
 root.configure(bg='Black') #Define a cor de fundo da janela
