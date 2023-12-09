@@ -1,3 +1,5 @@
+import os
+
 lista = []
 index = 0
 
@@ -9,6 +11,7 @@ while True:
             lista.append(valores)
             if valores <= 0:
                 break
+        os.system("cls")
         lista.pop()  # remove o ultimo numero digitado por ser negativo.
         print(*lista)
         print("Maior: ", max(lista))
