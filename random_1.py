@@ -14,5 +14,5 @@ print("Valores aleatórios: ", lista)
 print("Maior valor: ", max(lista))
 print("Menor valor: ", min(lista))
 print("Quantas vezes o maior valor apareceu: ", lista.count(max(lista)))
-print("Quantas vezaes o menor valor apareceu: ", lista.count(max(lista)))
+print("Quantas vezes o menor valor apareceu: ", lista.count(max(lista)))
 
