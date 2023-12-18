@@ -1,3 +1,18 @@
+#string methods
+
+name = "rafa"
+
+print(len(name))
+print(name.find("a"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count("a"))
+print(name.replace("a", "@"))
+print(name*3)
+
 #string slicing
 
 name = "Rafael Raniere"
@@ -17,3 +32,4 @@ slice = slice(12,-4)
 
 print(website1[slice])
 print(website2[slice])
+
